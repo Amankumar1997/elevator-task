@@ -1,0 +1,47 @@
+.grid-column-view {
+  height: 500px;
+  width: 100px;
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.grid-row-view {
+  height: 50px;
+  width: 100px;
+  border: 1px solid #ccc;
+}
+
+.elevators {
+  display: grid;
+  width: 500px;
+  grid-auto-flow: column;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.elevator {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  background-color: transparent;
+  bottom: 0;
+}
+
+.elevator-view {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  line-height: 40px;
+}
